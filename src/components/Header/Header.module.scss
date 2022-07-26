@@ -1,0 +1,64 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  height: 128px;
+  padding-left: 30px;
+  display: flex;
+  padding-right: 33px;
+  align-items: center;
+  background: #f7f8fc;
+}
+
+.title {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: #252733;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #dfe0eb;
+}
+
+.name {
+  padding-left: 32px;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+
+.avatar {
+  padding-left: 14px;
+  img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1.5px solid #dfe0eb;
+  }
+}
+
+.notifications {
+  width: 16px;
+  margin-right: 33px;
+  margin-left: 33px;
+}
+
+.search {
+  width: 13px;
+}

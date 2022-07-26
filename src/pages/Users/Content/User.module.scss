@@ -1,0 +1,65 @@
+.users {
+  display: flex;
+  border-top: 1.5px solid #dfe0eb;
+  border-bottom: 1.5px solid #dfe0eb;
+  text-decoration: none;
+  padding: 26px 0 26px 30px;
+
+  &:hover {
+    background: #dfe0eb;
+    cursor: pointer;
+  }
+}
+
+.user__info {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.user__avatar {
+  padding-right: 20px;
+}
+
+.company {
+  width: 22%;
+}
+
+.email {
+  width: 16%;
+}
+
+.user__name,
+.company__name,
+.email__info {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+
+.user__city,
+.company__catchPhrase,
+.email__website {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #c5c7cd;
+}
+
+.distance {
+  width: 22%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.moreInfo {
+  padding-right: 42px;
+}

@@ -1,0 +1,112 @@
+.tasks {
+  background: #ffffff;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+
+  padding: 32px 32px 0 32px;
+  margin: 15px;
+  width: 50%;
+}
+
+.tasks__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.tasks__title__support {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #9fa2b4;
+}
+
+.tasks__details {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #3751ff;
+  text-decoration: none;
+}
+
+.tasks__title__text {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #252733;
+  padding-bottom: 8px;
+}
+
+.unresolved_tasks {
+  display: flex;
+  flex-direction: column;
+}
+
+.unresolved_tasks__item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dfe0eb;
+  padding-top: 20px;
+  padding-bottom: 18px;
+}
+
+.unresolved_tasks__item:last-of-type {
+  border-bottom: none;
+  padding-bottom: none;
+}
+
+.tasks__item__text,
+.create__new__task {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+
+.tasks__item__text {
+  padding-left: 16px;
+
+  font-family: 'Mulish';
+  font-style: normal;
+
+}
+
+.create__new__task {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #c5c7cd;
+}
+
+.tasks__item__number {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #9fa2b4;
+}
+
+.unresolved_tasks__item__info {
+  display: flex;
+  align-items: center;
+}
+
+.tasks__item__checkbox {
+  width: 15px;
+  height: 15px;
+}
